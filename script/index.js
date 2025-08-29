@@ -85,61 +85,7 @@ for(let coypButtons of copybtns){
     })
 }
 
-// document.getElementById("heart-1").addEventListener("click", function () {
-//     console.log("antu shil")
-//     const heartNumber = parseInt(document.getElementById("red-heart").innerText)
 
-//     const totatHeart = heartNumber + 1;
-
-//     document.getElementById("red-heart").innerText = totatHeart
-// })
-
-// document.getElementById("call-button-1").addEventListener("click", function () {
-//     const nationEmergency = (document.getElementById("nation").innerText)
-//     const phoneEmergency = parseInt(document.getElementById("phone-number").innerText)
-//     const goldNumber = parseInt(document.getElementById("gold-number").innerText)
-
-    // if(goldNumber === 0){
-    //     return alert(`❌ আপনার পযাপ্ত কয়েন কম. কল করতে আপনার 20টি কয়েন লাগবে.`)
-    // }
-
-    // alert(`📞 Calling ${nationEmergency} ${phoneEmergency} . . . . `)
-
-    
-
-    // const totatGold = goldNumber - 20;
-
-    // document.getElementById("gold-number").innerText = totatGold;
-
-
-
-
-    // const nameEmergency = document.getElementById("data-contener");
-
-    
-    // const nameEmergency1 = (document.getElementById("title-1").innerText)
-    // const numberEmergency = (document.getElementById("phone-number").innerText)
-
-    // const newCart = document.createElement("div");
-    // newCart.innerHTML = `<div class="bg-[#fafafa] mt-6 ml-6 mr-6 h-21 rounded-xl flex justify-around items-center ">
-    //                 <div class="text-gray-800 ">
-    //                     <h1>${nameEmergency1}</h1>
-    //                     <p>${numberEmergency}</p>
-    //                 </div>
-
-    //                 <div class="text-gray-800 ">
-    //                     <p>${new Date().toLocaleTimeString()}</p>
-    //                 </div>
-    //             </div>`
-
-
-    //              nameEmergency.append(newCart);
-
-   
-
-
-
-// })
 
 document.getElementById("btn-clear").addEventListener("click", function () {
     const nameEmergency = document.getElementById("data-contener")
