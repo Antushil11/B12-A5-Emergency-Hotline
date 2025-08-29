@@ -37,16 +37,16 @@
             <div class="flex justify-center items-center">
                 <div
                     class="flex justify-center items-center btn btn-outline border-none   bg-[#41ff6b1a] p-4 rounded-3xl mr-5 w-28">
-                    <p class="font-bold">0</p>
+                    <p class="red-heart font-bold " id="red-heart">0</p>
                     <img src="./assets/heart.png" alt="" class="w-8">
                 </div>
                 <div
                     class="flex justify-center items-center btn btn-outline border-none bg-[#41ff6b1a] p-4 rounded-3xl mr-5 w-28">
-                    <p class="font-bold ">100</p>
+                    <p id="gold-number" class="font-bold ">100</p>
                     <img src="./assets/coin.png" alt="" class="w-6">
                 </div>
                 <button
-                    class="btn btn-outline bg-[#00a63e] text-white  p-5 rounded-3xl text-base w-28"><span>2</span>Copy</button>
+                    class="btn btn-outline bg-[#00a63e] text-white  p-5 rounded-3xl text-base w-28" ><span id="copy-button">0</span>Copy</button>
 
             </div>
 
@@ -59,7 +59,8 @@
 
             <h1 class="text-white md:text-4xl font-semibold mt-3 text-2xl ml-2">জরুরি সেবা ডিরেক্টরি</h1>
 
-            <p class="text-white md:text-xl mt-3 mb-5 text-lg  ml-2 text-center">Government Emergency Services at Your Fingertip –
+            <p class="text-white md:text-xl mt-3 mb-5 text-lg  ml-2 text-center">Government Emergency Services at Your
+                Fingertip –
                 A Project by Government of the People’s Republic of
                 Bangladesh</p>
 
@@ -78,22 +79,22 @@
                 <div class="grid md:grid-cols-3 grid-row-1 gap-5">
                     <!-- card-1 -->
                     <div class="card-item-1 card bg-base-100  shadow-sm md:w-96 ">
-                        <div class="card  mt-8   ">
+                        <div class="card  mt-8 ">
                             <div class="flex justify-between items-center  ml-6 mr-6">
                                 <figure class=" rounded-2xl">
                                     <img src="./assets/emergency.png" alt="Shoes" class="w-12 bg-red-100 p-2 " />
                                 </figure>
-                                <div class="  text-gray-600" id="heart-1">
-                                    <i class="fa-regular fa-heart "></i>
+                                <div id="heart-1" class="heart-1 text-gray-600">
+                                    <i class="fa-regular fa-heart " id="heart-item-1"></i>
                                 </div>
                             </div>
 
 
 
                             <div class="card-body">
-                                <h2 class="font-bold text-2xl ">জাতীয় জরুরি সেবা</h2>
-                                <p class="text-gray-600">National Emergency</p>
-                                <h1 class="font-bold text-3xl">999</h1>
+                                <h2 id="title-1" class="title-1 font-bold text-2xl ">জাতীয় জরুরি সেবা</h2>
+                                <p id="nation" class="nation text-gray-600">National Emergency</p>
+                                <h1 id="phone-number" class="phone-number font-bold text-3xl">999</h1>
                                 <p class="bg-[#f2f2f2] w-1/4 text-center p-1 text-gray-600 rounded-full">সার্বজনীন</p>
 
                             </div>
@@ -101,9 +102,9 @@
                         </div>
                         <div class="card-actions flex justify-center  items-center  mb-8 ">
 
-                            <button class="btn rounded-lg md:w-40 w-full text-gray-600"><i
+                            <button class="copy-button btn rounded-lg md:w-40 w-full text-gray-600"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
-                            <button class="btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
+                            <button id="call-button-1" class="call-button-1 btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
                                     class="fa-solid fa-phone"></i>Call</button>
                         </div>
 
@@ -117,17 +118,17 @@
                                 <figure class=" rounded-2xl">
                                     <img src="./assets/police.png" alt="Shoes" class="w-12 bg-blue-100 p-2 " />
                                 </figure>
-                                <div class="  text-gray-600 ">
-                                    <i class="fa-regular fa-heart "></i>
+                                <div id="heart-1" class="heart-1 text-gray-600 ">
+                                    <i class="fa-regular fa-heart " id="heart-item-1"></i>
                                 </div>
                             </div>
 
 
 
                             <div class="card-body">
-                                <h2 class="font-bold text-2xl ">পুলিশ</h2>
-                                <p class="text-gray-600">Police</p>
-                                <h1 class="font-bold text-3xl">999</h1>
+                                <h2 id="title-1"  class="title-1 font-bold text-2xl ">পুলিশ</h2>
+                                <p id="nation"  class="nation text-gray-600">Police</p>
+                                <h1 id="phone-number"  class="phone-number font-bold text-3xl">999</h1>
                                 <p class="bg-[#f2f2f2] w-1/4 text-center p-1 text-gray-600 rounded-full">পুলিশ</p>
 
                             </div>
@@ -135,9 +136,9 @@
                         </div>
                         <div class="card-actions flex justify-center items-center mb-8 ">
 
-                            <button class="btn rounded-lg md:w-40 w-full text-gray-600"><i
+                            <button class="copy-button btn rounded-lg md:w-40 w-full text-gray-600"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
-                            <button class="btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
+                            <button  class="call-button-1 btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
                                     class="fa-solid fa-phone"></i>Call</button>
                         </div>
 
@@ -152,7 +153,7 @@
                                 <figure class=" rounded-2xl">
                                     <img src="./assets/fire-service.png" alt="Shoes" class="w-12 bg-red-100 p-2 " />
                                 </figure>
-                                <div class="  text-gray-600 ">
+                                <div class="heart-1  text-gray-600 ">
                                     <i class="fa-regular fa-heart "></i>
                                 </div>
                             </div>
@@ -170,9 +171,9 @@
                         </div>
                         <div class="card-actions flex justify-center items-center mb-8">
 
-                            <button class="btn rounded-lg md:w-40 w-full text-gray-600"><i
+                            <button class="copy-button btn rounded-lg md:w-40 w-full text-gray-600"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
-                            <button class="btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
+                            <button class="call-button-1 btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
                                     class="fa-solid fa-phone"></i>Call</button>
                         </div>
 
@@ -186,7 +187,7 @@
                                 <figure class=" rounded-2xl">
                                     <img src="./assets/ambulance.png" alt="Shoes" class="w-12 bg-red-100 p-2 " />
                                 </figure>
-                                <div class="  text-gray-600 ">
+                                <div class="heart-1  text-gray-600 ">
                                     <i class="fa-regular fa-heart "></i>
                                 </div>
                             </div>
@@ -204,9 +205,9 @@
                         </div>
                         <div class="card-actions flex justify-center items-center mb-8">
 
-                            <button class="btn rounded-lg md:w-40 w-full text-gray-600"><i
+                            <button class="copy-button btn rounded-lg md:w-40 w-full text-gray-600"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
-                            <button class="btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
+                            <button class="call-button-1 btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
                                     class="fa-solid fa-phone"></i>Call</button>
                         </div>
 
@@ -221,7 +222,7 @@
                                 <figure class=" rounded-2xl">
                                     <img src="./assets/emergency.png" alt="Shoes" class="w-12 bg-red-100 p-2 " />
                                 </figure>
-                                <div class="  text-gray-600 ">
+                                <div class="heart-1  text-gray-600 ">
                                     <i class="fa-regular fa-heart "></i>
                                 </div>
                             </div>
@@ -239,9 +240,9 @@
                         </div>
                         <div class="card-actions flex justify-center items-center mb-8">
 
-                            <button class="btn rounded-lg md:w-40 w-full text-gray-600"><i
+                            <button class="copy-button btn rounded-lg md:w-40 w-full text-gray-600"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
-                            <button class="btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
+                            <button class="call-button-1 btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
                                     class="fa-solid fa-phone"></i>Call</button>
                         </div>
 
@@ -255,7 +256,7 @@
                                 <figure class=" rounded-2xl">
                                     <img src="./assets/emergency.png" alt="Shoes" class="w-12 bg-red-100 p-2 " />
                                 </figure>
-                                <div class="  text-gray-600 ">
+                                <div class="heart-1  text-gray-600 ">
                                     <i class="fa-regular fa-heart "></i>
                                 </div>
                             </div>
@@ -273,9 +274,9 @@
                         </div>
                         <div class="card-actions flex justify-center items-center mb-8">
 
-                            <button class="btn rounded-lg md:w-40 w-full text-gray-600"><i
+                            <button class="copy-button btn rounded-lg md:w-40 w-full text-gray-600"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
-                            <button class="btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
+                            <button class="call-button-1 btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
                                     class="fa-solid fa-phone"></i>Call</button>
                         </div>
 
@@ -289,7 +290,7 @@
                                 <figure class=" rounded-2xl">
                                     <img src="./assets/emergency.png" alt="Shoes" class="w-12 bg-red-100 p-2 " />
                                 </figure>
-                                <div class="  text-gray-600 ">
+                                <div class="heart-1  text-gray-600 ">
                                     <i class="fa-regular fa-heart "></i>
                                 </div>
                             </div>
@@ -307,9 +308,9 @@
                         </div>
                         <div class="card-actions flex justify-center items-center mb-8">
 
-                            <button class="btn rounded-lg md:w-40 w-full text-gray-600"><i
+                            <button class="copy-button btn rounded-lg md:w-40 w-full text-gray-600"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
-                            <button class="btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
+                            <button class="call-button-1 btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
                                     class="fa-solid fa-phone"></i>Call</button>
                         </div>
 
@@ -323,7 +324,7 @@
                                 <figure class=" rounded-2xl">
                                     <img src="./assets/emergency.png" alt="Shoes" class="w-12 bg-red-100 p-2 " />
                                 </figure>
-                                <div class="  text-gray-600 ">
+                                <div class="heart-1  text-gray-600 ">
                                     <i class="fa-regular fa-heart "></i>
                                 </div>
                             </div>
@@ -341,9 +342,9 @@
                         </div>
                         <div class="card-actions flex justify-center items-center mb-8">
 
-                            <button class="btn rounded-lg md:w-40 w-full text-gray-600"><i
+                            <button class="copy-button btn rounded-lg md:w-40 w-full text-gray-600"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
-                            <button class="btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
+                            <button class="call-button-1 btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
                                     class="fa-solid fa-phone"></i>Call</button>
                         </div>
 
@@ -357,7 +358,7 @@
                                 <figure class=" rounded-2xl">
                                     <img src="./assets/emergency.png" alt="Shoes" class="w-12 bg-red-100 p-2 " />
                                 </figure>
-                                <div class="  text-gray-600 ">
+                                <div class="heart-1  text-gray-600 ">
                                     <i class="fa-regular fa-heart "></i>
                                 </div>
                             </div>
@@ -375,9 +376,9 @@
                         </div>
                         <div class="card-actions flex justify-center items-center mb-8">
 
-                            <button class="btn rounded-lg md:w-40 w-full text-gray-600"><i
+                            <button class="copy-button btn rounded-lg md:w-40 w-full text-gray-600"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
-                            <button class="btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
+                            <button class="call-button-1 btn bg-[#00a63e] rounded-lg md:w-40 w-full text-white"><i
                                     class="fa-solid fa-phone"></i>Call</button>
                         </div>
 
@@ -391,29 +392,21 @@
 
 
 
-            <aside class="history-section  md:col-span-3 row-span-1 bg-white rounded-lg">
+            <aside id="Name-id" class="history-section  md:col-span-3 row-span-1 bg-white rounded-lg">
                 <div class="flex justify-between items-center mt-6 ml-6 mr-6">
                     <div class="flex justify-start items-center ">
 
 
-                        <i class="fa-regular fa-clock text-gray-400 text-xl"></i>
+                        <i class="fa-regular fa-clock text-gray-400 text-xl "></i>
                         <h2 class="font-semibold text-xl ml-2">Call History</h2>
                     </div>
-                    <button
-                        class="btn btn-outline bg-[#00a63e] text-white  p-5 rounded-3xl text-base w-28">Clear</button>
+                    <button id="btn-clear" class="btn btn-outline bg-[#00a63e] text-white  p-5 rounded-3xl text-base w-28" >Clear</button>
 
 
                 </div>
 
-                <div class="bg-[#fafafa] mt-6 ml-6 mr-6 h-21 rounded-xl flex justify-around items-center ">
-                    <div class="text-gray-800 ">
-                        <h1>জাতীয় জরুরি সেবা</h1>
-                        <p>999</p>
-                    </div>
-
-                    <div class="text-gray-800 ">
-                        <p>11:36:58 AM</p>
-                    </div>
+                <div id="data-contener">
+                    
                 </div>
                 <!-- Call History end -->
 
