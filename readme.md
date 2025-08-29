@@ -1,7 +1,6 @@
 ### 6. Answer the following questions clearly:
 
 1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
-
 Answer: getElementById(id): Selects a single element based on its unique id attribute.getElementsByClassName(className): Selects all elements that possess a specific class name.querySelector(selector): Selects the first element that matches a given CSS selector (e.g., #id, .class, tag, [attribute="value"]) querySelectorAll(selector): Selects all elements that match a given CSS selector.
 
 
