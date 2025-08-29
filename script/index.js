@@ -27,7 +27,7 @@ cartButtons.addEventListener("click", function (){
     const nameEmergency = document.getElementById("data-contener");
 
      const newCart = document.createElement("div");
-    newCart.innerHTML = `<div class="bg-[#fafafa] mt-6 h-21 rounded-xl flex justify-around items-center ">
+    newCart.innerHTML = `<div class="bg-[#fafafa] mt-6 h-21 rounded-xl flex justify-around items-center w-96 mx-auto">
                     <div class="text-gray-800 ">
                         <h1>${nationEmergency}</h1>
                         <p>${phoneEmergency }</p>
